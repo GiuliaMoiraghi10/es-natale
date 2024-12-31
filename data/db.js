@@ -3,7 +3,7 @@ const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'Giuggiola10',
-    database: 'popverso-tables',
+    database: 'popverso_db',
 })
 
 connection.connect((err) => {
