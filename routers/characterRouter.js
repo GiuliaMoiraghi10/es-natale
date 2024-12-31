@@ -9,6 +9,9 @@ const characterController = require('../controllers/characterController')
 //index
 router.get('/', characterController.index)
 
+//show
+router.get('/:id', characterController.show)
+
 module.exports = router
 
 
